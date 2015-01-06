@@ -1,573 +1,1375 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		791EEB3E1957D297009DC47A /* KRLCollectionViewGridLayout.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 791EEB3D1957D297009DC47A /* KRLCollectionViewGridLayout.podspec */; };
-		791EEB481957DA9E009DC47A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C059C18E5217600A94FC3 /* XCTest.framework */; };
-		791EEB491957DA9E009DC47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057A18E5217600A94FC3 /* Foundation.framework */; };
-		791EEB4A1957DA9E009DC47A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057E18E5217600A94FC3 /* UIKit.framework */; };
-		791EEB501957DA9E009DC47A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 791EEB4E1957DA9E009DC47A /* InfoPlist.strings */; };
-		791EEB5A1957DACA009DC47A /* KRLCollectionViewGridLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 791EEB591957DACA009DC47A /* KRLCollectionViewGridLayoutTest.m */; };
-		791EEB5D1957DB2F009DC47A /* KRLSimpleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791EEB5C1957DB2F009DC47A /* KRLSimpleCollectionViewController.m */; };
-		794C057B18E5217600A94FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057A18E5217600A94FC3 /* Foundation.framework */; };
-		794C057D18E5217600A94FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057C18E5217600A94FC3 /* CoreGraphics.framework */; };
-		794C057F18E5217600A94FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057E18E5217600A94FC3 /* UIKit.framework */; };
-		794C058518E5217600A94FC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 794C058318E5217600A94FC3 /* InfoPlist.strings */; };
-		794C058718E5217600A94FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C058618E5217600A94FC3 /* main.m */; };
-		794C058B18E5217600A94FC3 /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C058A18E5217600A94FC3 /* KLAppDelegate.m */; };
-		794C058E18E5217600A94FC3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */; };
-		794C059118E5217600A94FC3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794C058F18E5217600A94FC3 /* Main_iPad.storyboard */; };
-		794C059618E5217600A94FC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794C059518E5217600A94FC3 /* Images.xcassets */; };
-		79D757D4196E51370044DCFF /* KRLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D757D3196E51370044DCFF /* KRLCollectionViewGridLayout.m */; };
-		79EBDAE6194C1051004A6BD7 /* KLGridLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EBDAE5194C1051004A6BD7 /* KLGridLayoutViewController.m */; };
-		E326D5432FCE495185EC0D6A /* libPods-KRLCollectionViewGridLayoutTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B349C1D612246D5820B6E8A /* libPods-KRLCollectionViewGridLayoutTests.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		791EEB541957DA9E009DC47A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 794C056F18E5217600A94FC3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 794C057618E5217600A94FC3;
-			remoteInfo = KRLCollectionViewGridLayoutDemo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		4E59B64EF204468F86652511 /* Pods-KRLCollectionViewGridLayoutTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRLCollectionViewGridLayoutTests.xcconfig"; path = "Pods/Pods-KRLCollectionViewGridLayoutTests.xcconfig"; sourceTree = "<group>"; };
-		5B349C1D612246D5820B6E8A /* libPods-KRLCollectionViewGridLayoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRLCollectionViewGridLayoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		791EEB3D1957D297009DC47A /* KRLCollectionViewGridLayout.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KRLCollectionViewGridLayout.podspec; path = ../KRLCollectionViewGridLayout.podspec; sourceTree = "<group>"; };
-		791EEB471957DA9E009DC47A /* KRLCollectionViewGridLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLCollectionViewGridLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		791EEB4D1957DA9E009DC47A /* KRLCollectionViewGridLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRLCollectionViewGridLayoutTests-Info.plist"; sourceTree = "<group>"; };
-		791EEB4F1957DA9E009DC47A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		791EEB531957DA9E009DC47A /* KRLCollectionViewGridLayoutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRLCollectionViewGridLayoutTests-Prefix.pch"; sourceTree = "<group>"; };
-		791EEB591957DACA009DC47A /* KRLCollectionViewGridLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLCollectionViewGridLayoutTest.m; sourceTree = "<group>"; };
-		791EEB5B1957DB2F009DC47A /* KRLSimpleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLSimpleCollectionViewController.h; sourceTree = "<group>"; };
-		791EEB5C1957DB2F009DC47A /* KRLSimpleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLSimpleCollectionViewController.m; sourceTree = "<group>"; };
-		791EEB7B196A59CF009DC47A /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
-		791EEB7C196A59CF009DC47A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		791EEB7D196A59CF009DC47A /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rakefile; path = ../Rakefile; sourceTree = "<group>"; };
-		791EEB7E196A59CF009DC47A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		794C057718E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLCollectionViewGridLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		794C057A18E5217600A94FC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		794C057C18E5217600A94FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		794C057E18E5217600A94FC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		794C058218E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRLCollectionViewGridLayoutDemo-Info.plist"; sourceTree = "<group>"; };
-		794C058418E5217600A94FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		794C058618E5217600A94FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		794C058818E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRLCollectionViewGridLayoutDemo-Prefix.pch"; sourceTree = "<group>"; };
-		794C058918E5217600A94FC3 /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
-		794C058A18E5217600A94FC3 /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
-		794C058D18E5217600A94FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		794C059018E5217600A94FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		794C059518E5217600A94FC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		794C059C18E5217600A94FC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		79D757D0196B86E70044DCFF /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		79D757D2196E51370044DCFF /* KRLCollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRLCollectionViewGridLayout.h; path = ../Classes/KRLCollectionViewGridLayout.h; sourceTree = "<group>"; };
-		79D757D3196E51370044DCFF /* KRLCollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRLCollectionViewGridLayout.m; path = ../Classes/KRLCollectionViewGridLayout.m; sourceTree = "<group>"; };
-		79EBDAE4194C1051004A6BD7 /* KLGridLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGridLayoutViewController.h; sourceTree = "<group>"; };
-		79EBDAE5194C1051004A6BD7 /* KLGridLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGridLayoutViewController.m; sourceTree = "<group>"; };
-		99351E477315433E912DA664 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		791EEB441957DA9E009DC47A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				791EEB481957DA9E009DC47A /* XCTest.framework in Frameworks */,
-				791EEB4A1957DA9E009DC47A /* UIKit.framework in Frameworks */,
-				791EEB491957DA9E009DC47A /* Foundation.framework in Frameworks */,
-				E326D5432FCE495185EC0D6A /* libPods-KRLCollectionViewGridLayoutTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		794C057418E5217600A94FC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				794C057D18E5217600A94FC3 /* CoreGraphics.framework in Frameworks */,
-				794C057F18E5217600A94FC3 /* UIKit.framework in Frameworks */,
-				794C057B18E5217600A94FC3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		791EEB4B1957DA9E009DC47A /* KRLCollectionViewGridLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				791EEB591957DACA009DC47A /* KRLCollectionViewGridLayoutTest.m */,
-				791EEB5B1957DB2F009DC47A /* KRLSimpleCollectionViewController.h */,
-				791EEB5C1957DB2F009DC47A /* KRLSimpleCollectionViewController.m */,
-				791EEB4C1957DA9E009DC47A /* Supporting Files */,
-			);
-			path = KRLCollectionViewGridLayoutTests;
-			sourceTree = "<group>";
-		};
-		791EEB4C1957DA9E009DC47A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				791EEB4D1957DA9E009DC47A /* KRLCollectionViewGridLayoutTests-Info.plist */,
-				791EEB4E1957DA9E009DC47A /* InfoPlist.strings */,
-				791EEB531957DA9E009DC47A /* KRLCollectionViewGridLayoutTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		794C056E18E5217600A94FC3 = {
-			isa = PBXGroup;
-			children = (
-				79D757D1196E511E0044DCFF /* KRLCollectionViewGridLayout */,
-				794C058018E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo */,
-				791EEB4B1957DA9E009DC47A /* KRLCollectionViewGridLayoutTests */,
-				794C057918E5217600A94FC3 /* Frameworks */,
-				794C057818E5217600A94FC3 /* Products */,
-				791EEB7B196A59CF009DC47A /* CHANGELOG.md */,
-				791EEB7C196A59CF009DC47A /* LICENSE */,
-				791EEB7D196A59CF009DC47A /* Rakefile */,
-				791EEB7E196A59CF009DC47A /* README.md */,
-				791EEB3D1957D297009DC47A /* KRLCollectionViewGridLayout.podspec */,
-				79D757D0196B86E70044DCFF /* .travis.yml */,
-				4E59B64EF204468F86652511 /* Pods-KRLCollectionViewGridLayoutTests.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		794C057818E5217600A94FC3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				794C057718E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo.app */,
-				791EEB471957DA9E009DC47A /* KRLCollectionViewGridLayoutTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		794C057918E5217600A94FC3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				794C057A18E5217600A94FC3 /* Foundation.framework */,
-				794C057C18E5217600A94FC3 /* CoreGraphics.framework */,
-				794C057E18E5217600A94FC3 /* UIKit.framework */,
-				794C059C18E5217600A94FC3 /* XCTest.framework */,
-				99351E477315433E912DA664 /* libPods.a */,
-				5B349C1D612246D5820B6E8A /* libPods-KRLCollectionViewGridLayoutTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		794C058018E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo */ = {
-			isa = PBXGroup;
-			children = (
-				794C059518E5217600A94FC3 /* Images.xcassets */,
-				794C058918E5217600A94FC3 /* KLAppDelegate.h */,
-				794C058A18E5217600A94FC3 /* KLAppDelegate.m */,
-				79EBDAE4194C1051004A6BD7 /* KLGridLayoutViewController.h */,
-				79EBDAE5194C1051004A6BD7 /* KLGridLayoutViewController.m */,
-				794C058F18E5217600A94FC3 /* Main_iPad.storyboard */,
-				794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */,
-				794C058118E5217600A94FC3 /* Supporting Files */,
-			);
-			path = KRLCollectionViewGridLayoutDemo;
-			sourceTree = "<group>";
-		};
-		794C058118E5217600A94FC3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				794C058218E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo-Info.plist */,
-				794C058318E5217600A94FC3 /* InfoPlist.strings */,
-				794C058618E5217600A94FC3 /* main.m */,
-				794C058818E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		79D757D1196E511E0044DCFF /* KRLCollectionViewGridLayout */ = {
-			isa = PBXGroup;
-			children = (
-				79D757D2196E51370044DCFF /* KRLCollectionViewGridLayout.h */,
-				79D757D3196E51370044DCFF /* KRLCollectionViewGridLayout.m */,
-			);
-			name = KRLCollectionViewGridLayout;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		791EEB461957DA9E009DC47A /* KRLCollectionViewGridLayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 791EEB581957DA9E009DC47A /* Build configuration list for PBXNativeTarget "KRLCollectionViewGridLayoutTests" */;
-			buildPhases = (
-				10ABFC27BB35469891DDFD50 /* Check Pods Manifest.lock */,
-				791EEB431957DA9E009DC47A /* Sources */,
-				791EEB441957DA9E009DC47A /* Frameworks */,
-				791EEB451957DA9E009DC47A /* Resources */,
-				61A7F742CBA14ACA96795812 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				791EEB551957DA9E009DC47A /* PBXTargetDependency */,
-			);
-			name = KRLCollectionViewGridLayoutTests;
-			productName = KRLCollectionViewGridLayoutTests;
-			productReference = 791EEB471957DA9E009DC47A /* KRLCollectionViewGridLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		794C057618E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 794C05AC18E5217600A94FC3 /* Build configuration list for PBXNativeTarget "KRLCollectionViewGridLayoutDemo" */;
-			buildPhases = (
-				794C057318E5217600A94FC3 /* Sources */,
-				794C057418E5217600A94FC3 /* Frameworks */,
-				794C057518E5217600A94FC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KRLCollectionViewGridLayoutDemo;
-			productName = KLCollectionLayoutsDemo;
-			productReference = 794C057718E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		794C056F18E5217600A94FC3 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = KL;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Lundbergsoft;
-				TargetAttributes = {
-					791EEB461957DA9E009DC47A = {
-						TestTargetID = 794C057618E5217600A94FC3;
-					};
-				};
-			};
-			buildConfigurationList = 794C057218E5217600A94FC3 /* Build configuration list for PBXProject "KRLCollectionViewGridLayoutDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 794C056E18E5217600A94FC3;
-			productRefGroup = 794C057818E5217600A94FC3 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				794C057618E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo */,
-				791EEB461957DA9E009DC47A /* KRLCollectionViewGridLayoutTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		791EEB451957DA9E009DC47A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				791EEB501957DA9E009DC47A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		794C057518E5217600A94FC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				794C059118E5217600A94FC3 /* Main_iPad.storyboard in Resources */,
-				794C059618E5217600A94FC3 /* Images.xcassets in Resources */,
-				791EEB3E1957D297009DC47A /* KRLCollectionViewGridLayout.podspec in Resources */,
-				794C058E18E5217600A94FC3 /* Main_iPhone.storyboard in Resources */,
-				794C058518E5217600A94FC3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		10ABFC27BB35469891DDFD50 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		61A7F742CBA14ACA96795812 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-KRLCollectionViewGridLayoutTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		791EEB431957DA9E009DC47A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				791EEB5D1957DB2F009DC47A /* KRLSimpleCollectionViewController.m in Sources */,
-				791EEB5A1957DACA009DC47A /* KRLCollectionViewGridLayoutTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		794C057318E5217600A94FC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79D757D4196E51370044DCFF /* KRLCollectionViewGridLayout.m in Sources */,
-				794C058718E5217600A94FC3 /* main.m in Sources */,
-				794C058B18E5217600A94FC3 /* KLAppDelegate.m in Sources */,
-				79EBDAE6194C1051004A6BD7 /* KLGridLayoutViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		791EEB551957DA9E009DC47A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 794C057618E5217600A94FC3 /* KRLCollectionViewGridLayoutDemo */;
-			targetProxy = 791EEB541957DA9E009DC47A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		791EEB4E1957DA9E009DC47A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				791EEB4F1957DA9E009DC47A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		794C058318E5217600A94FC3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				794C058418E5217600A94FC3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				794C058D18E5217600A94FC3 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		794C058F18E5217600A94FC3 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				794C059018E5217600A94FC3 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		791EEB561957DA9E009DC47A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E59B64EF204468F86652511 /* Pods-KRLCollectionViewGridLayoutTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRLCollectionViewGridLayoutDemo.app/KRLCollectionViewGridLayoutDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		791EEB571957DA9E009DC47A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E59B64EF204468F86652511 /* Pods-KRLCollectionViewGridLayoutTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KRLCollectionViewGridLayoutDemo.app/KRLCollectionViewGridLayoutDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Prefix.pch";
-				INFOPLIST_FILE = "KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-		794C05AA18E5217600A94FC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		794C05AB18E5217600A94FC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		794C05AD18E5217600A94FC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KRLCollectionViewGridLayoutDemo/KRLCollectionViewGridLayoutDemo-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/KRLCollectionViewGridLayoutDemo/KRLGridLayoutDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_NAME = KRLCollectionViewGridLayoutDemo;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		794C05AE18E5217600A94FC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KRLCollectionViewGridLayoutDemo/KRLCollectionViewGridLayoutDemo-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/KRLCollectionViewGridLayoutDemo/KRLGridLayoutDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_NAME = KRLCollectionViewGridLayoutDemo;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		791EEB581957DA9E009DC47A /* Build configuration list for PBXNativeTarget "KRLCollectionViewGridLayoutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				791EEB561957DA9E009DC47A /* Debug */,
-				791EEB571957DA9E009DC47A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		794C057218E5217600A94FC3 /* Build configuration list for PBXProject "KRLCollectionViewGridLayoutDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				794C05AA18E5217600A94FC3 /* Debug */,
-				794C05AB18E5217600A94FC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		794C05AC18E5217600A94FC3 /* Build configuration list for PBXNativeTarget "KRLCollectionViewGridLayoutDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				794C05AD18E5217600A94FC3 /* Debug */,
-				794C05AE18E5217600A94FC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 794C056F18E5217600A94FC3 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>10ABFC27BB35469891DDFD50</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>40767E036E60BBBE592FCA70</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4DE3D4CCD26CDB36DA833CED</string>
+				<string>744FD18C01D006C5C475C22B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DE3D4CCD26CDB36DA833CED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-KRLCollectionViewGridLayoutTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-KRLCollectionViewGridLayoutTests/Pods-KRLCollectionViewGridLayoutTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B349C1D612246D5820B6E8A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-KRLCollectionViewGridLayoutTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>61A7F742CBA14ACA96795812</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-KRLCollectionViewGridLayoutTests/Pods-KRLCollectionViewGridLayoutTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>744FD18C01D006C5C475C22B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-KRLCollectionViewGridLayoutTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-KRLCollectionViewGridLayoutTests/Pods-KRLCollectionViewGridLayoutTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB3D1957D297009DC47A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayout.podspec</string>
+			<key>path</key>
+			<string>../KRLCollectionViewGridLayout.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB3E1957D297009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>791EEB3D1957D297009DC47A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB431957DA9E009DC47A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>791EEB5D1957DB2F009DC47A</string>
+				<string>791EEB5A1957DACA009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>791EEB441957DA9E009DC47A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>791EEB481957DA9E009DC47A</string>
+				<string>791EEB4A1957DA9E009DC47A</string>
+				<string>791EEB491957DA9E009DC47A</string>
+				<string>E326D5432FCE495185EC0D6A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>791EEB451957DA9E009DC47A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>791EEB501957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>791EEB461957DA9E009DC47A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>791EEB581957DA9E009DC47A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>10ABFC27BB35469891DDFD50</string>
+				<string>791EEB431957DA9E009DC47A</string>
+				<string>791EEB441957DA9E009DC47A</string>
+				<string>791EEB451957DA9E009DC47A</string>
+				<string>61A7F742CBA14ACA96795812</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>791EEB551957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayoutTests</string>
+			<key>productName</key>
+			<string>KRLCollectionViewGridLayoutTests</string>
+			<key>productReference</key>
+			<string>791EEB471957DA9E009DC47A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>791EEB471957DA9E009DC47A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>791EEB481957DA9E009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C059C18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB491957DA9E009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C057A18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB4A1957DA9E009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C057E18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB4B1957DA9E009DC47A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>791EEB591957DACA009DC47A</string>
+				<string>791EEB5B1957DB2F009DC47A</string>
+				<string>791EEB5C1957DB2F009DC47A</string>
+				<string>791EEB4C1957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB4C1957DA9E009DC47A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>791EEB4D1957DA9E009DC47A</string>
+				<string>791EEB4E1957DA9E009DC47A</string>
+				<string>791EEB531957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB4D1957DA9E009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB4E1957DA9E009DC47A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>791EEB4F1957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB4F1957DA9E009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB501957DA9E009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>791EEB4E1957DA9E009DC47A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB531957DA9E009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutTests-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB541957DA9E009DC47A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>794C056F18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>794C057618E5217600A94FC3</string>
+			<key>remoteInfo</key>
+			<string>KRLCollectionViewGridLayoutDemo</string>
+		</dict>
+		<key>791EEB551957DA9E009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>794C057618E5217600A94FC3</string>
+			<key>targetProxy</key>
+			<string>791EEB541957DA9E009DC47A</string>
+		</dict>
+		<key>791EEB561957DA9E009DC47A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4DE3D4CCD26CDB36DA833CED</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/KRLCollectionViewGridLayoutDemo.app/KRLCollectionViewGridLayoutDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>791EEB571957DA9E009DC47A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>744FD18C01D006C5C475C22B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/KRLCollectionViewGridLayoutDemo.app/KRLCollectionViewGridLayoutDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>KRLCollectionViewGridLayoutTests/KRLCollectionViewGridLayoutTests-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>791EEB581957DA9E009DC47A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>791EEB561957DA9E009DC47A</string>
+				<string>791EEB571957DA9E009DC47A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>791EEB591957DACA009DC47A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutTest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB5A1957DACA009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>791EEB591957DACA009DC47A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB5B1957DB2F009DC47A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KRLSimpleCollectionViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB5C1957DB2F009DC47A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KRLSimpleCollectionViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB5D1957DB2F009DC47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>791EEB5C1957DB2F009DC47A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>791EEB7B196A59CF009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>CHANGELOG.md</string>
+			<key>path</key>
+			<string>../CHANGELOG.md</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB7C196A59CF009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>LICENSE</string>
+			<key>path</key>
+			<string>../LICENSE</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB7D196A59CF009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Rakefile</string>
+			<key>path</key>
+			<string>../Rakefile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>791EEB7E196A59CF009DC47A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>README.md</string>
+			<key>path</key>
+			<string>../README.md</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C056E18E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>79D757D1196E511E0044DCFF</string>
+				<string>794C058018E5217600A94FC3</string>
+				<string>791EEB4B1957DA9E009DC47A</string>
+				<string>794C057918E5217600A94FC3</string>
+				<string>794C057818E5217600A94FC3</string>
+				<string>791EEB7B196A59CF009DC47A</string>
+				<string>791EEB7C196A59CF009DC47A</string>
+				<string>791EEB7D196A59CF009DC47A</string>
+				<string>791EEB7E196A59CF009DC47A</string>
+				<string>791EEB3D1957D297009DC47A</string>
+				<string>79D757D0196B86E70044DCFF</string>
+				<string>40767E036E60BBBE592FCA70</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C056F18E5217600A94FC3</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>KL</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Lundbergsoft</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>791EEB461957DA9E009DC47A</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>794C057618E5217600A94FC3</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>794C057218E5217600A94FC3</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>794C056E18E5217600A94FC3</string>
+			<key>productRefGroup</key>
+			<string>794C057818E5217600A94FC3</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>794C057618E5217600A94FC3</string>
+				<string>791EEB461957DA9E009DC47A</string>
+			</array>
+		</dict>
+		<key>794C057218E5217600A94FC3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>794C05AA18E5217600A94FC3</string>
+				<string>794C05AB18E5217600A94FC3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>794C057318E5217600A94FC3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>79D757D4196E51370044DCFF</string>
+				<string>794C058718E5217600A94FC3</string>
+				<string>794C058B18E5217600A94FC3</string>
+				<string>79EBDAE6194C1051004A6BD7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>794C057418E5217600A94FC3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>794C057D18E5217600A94FC3</string>
+				<string>794C057F18E5217600A94FC3</string>
+				<string>794C057B18E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>794C057518E5217600A94FC3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>794C059118E5217600A94FC3</string>
+				<string>794C059618E5217600A94FC3</string>
+				<string>791EEB3E1957D297009DC47A</string>
+				<string>794C058E18E5217600A94FC3</string>
+				<string>794C058518E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>794C057618E5217600A94FC3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>794C05AC18E5217600A94FC3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>794C057318E5217600A94FC3</string>
+				<string>794C057418E5217600A94FC3</string>
+				<string>794C057518E5217600A94FC3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayoutDemo</string>
+			<key>productName</key>
+			<string>KLCollectionLayoutsDemo</string>
+			<key>productReference</key>
+			<string>794C057718E5217600A94FC3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>794C057718E5217600A94FC3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>794C057818E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C057718E5217600A94FC3</string>
+				<string>791EEB471957DA9E009DC47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C057918E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C057A18E5217600A94FC3</string>
+				<string>794C057C18E5217600A94FC3</string>
+				<string>794C057E18E5217600A94FC3</string>
+				<string>794C059C18E5217600A94FC3</string>
+				<string>99351E477315433E912DA664</string>
+				<string>5B349C1D612246D5820B6E8A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C057A18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>794C057B18E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C057A18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C057C18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>794C057D18E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C057C18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C057E18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>794C057F18E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C057E18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C058018E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C059518E5217600A94FC3</string>
+				<string>794C058918E5217600A94FC3</string>
+				<string>794C058A18E5217600A94FC3</string>
+				<string>79EBDAE4194C1051004A6BD7</string>
+				<string>79EBDAE5194C1051004A6BD7</string>
+				<string>794C058F18E5217600A94FC3</string>
+				<string>794C058C18E5217600A94FC3</string>
+				<string>794C058118E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058118E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C058218E5217600A94FC3</string>
+				<string>794C058318E5217600A94FC3</string>
+				<string>794C058618E5217600A94FC3</string>
+				<string>794C058818E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058218E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutDemo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058318E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C058418E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058418E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058518E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C058318E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C058618E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058718E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C058618E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C058818E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KRLCollectionViewGridLayoutDemo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058918E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KLAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058A18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KLAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058B18E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C058A18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C058C18E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C058D18E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main_iPhone.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058D18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main_iPhone.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C058E18E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C058C18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C058F18E5217600A94FC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>794C059018E5217600A94FC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main_iPad.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C059018E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main_iPad.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C059118E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C058F18E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C059518E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>794C059618E5217600A94FC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>794C059518E5217600A94FC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>794C059C18E5217600A94FC3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>794C05AA18E5217600A94FC3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>794C05AB18E5217600A94FC3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>794C05AC18E5217600A94FC3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>794C05AD18E5217600A94FC3</string>
+				<string>794C05AE18E5217600A94FC3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>794C05AD18E5217600A94FC3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>KRLCollectionViewGridLayoutDemo/KRLCollectionViewGridLayoutDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>$(SRCROOT)/KRLCollectionViewGridLayoutDemo/KRLGridLayoutDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>PRODUCT_NAME</key>
+				<string>KRLCollectionViewGridLayoutDemo</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>794C05AE18E5217600A94FC3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>KRLCollectionViewGridLayoutDemo/KRLCollectionViewGridLayoutDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>$(SRCROOT)/KRLCollectionViewGridLayoutDemo/KRLGridLayoutDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>PRODUCT_NAME</key>
+				<string>KRLCollectionViewGridLayoutDemo</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>79D757D0196B86E70044DCFF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>.travis.yml</string>
+			<key>path</key>
+			<string>../.travis.yml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79D757D1196E511E0044DCFF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>79D757D2196E51370044DCFF</string>
+				<string>79D757D3196E51370044DCFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayout</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79D757D2196E51370044DCFF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayout.h</string>
+			<key>path</key>
+			<string>../Classes/KRLCollectionViewGridLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79D757D3196E51370044DCFF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KRLCollectionViewGridLayout.m</string>
+			<key>path</key>
+			<string>../Classes/KRLCollectionViewGridLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79D757D4196E51370044DCFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79D757D3196E51370044DCFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>79EBDAE4194C1051004A6BD7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KLGridLayoutViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79EBDAE5194C1051004A6BD7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>KLGridLayoutViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79EBDAE6194C1051004A6BD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79EBDAE5194C1051004A6BD7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>99351E477315433E912DA664</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E326D5432FCE495185EC0D6A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B349C1D612246D5820B6E8A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>794C056F18E5217600A94FC3</string>
+</dict>
+</plist>
